@@ -84,6 +84,12 @@ const Navbar = ({ setData, cart }) => {
             <div onClick={() => filterByPrice(89999)} className="items">
               {">="}89999
             </div>
+            {/* <Link to="/signup">
+              SignUp
+            </Link>
+            <Link to="/login">
+              LogIn
+            </Link> */}
           </div>
         )}
       </header>
